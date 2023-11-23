@@ -1,0 +1,13 @@
+numpy
+scipy
+pandas
+mdanalysis >= 2.0
+mpi4py
+mergedeep
+pyemd
+
+
+# for some analysis functions
+panedr
+lipyphilic
+lmfit

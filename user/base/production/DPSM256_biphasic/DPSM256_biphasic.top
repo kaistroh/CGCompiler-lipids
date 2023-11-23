@@ -1,0 +1,25 @@
+#include "martini_v3.0.0.itp"
+;#include "martini_v3.0.0_phospholipids_v1.itp"
+#include "martini_v3.0.0_solvents_v2.itp" 
+#include "martini_v3.0.0_ions_v1.itp"
+;#include "martini_v3.0_sterols.itp"
+;#include "martini_v3.0_sm.itp"
+;#include "martini_v3.0_dpsm_scaled.itp"
+#include "DPSM.itp"
+
+[ system ]
+; name
+INSANE! Membrane UpperLeaflet>DPSM=1.0 LowerLeaflet>DPSM=1.0
+
+[ molecules ]
+; name  number
+DPSM            64
+DPSM            64
+DPSM            64
+DPSM            64
+W             1150
+W             1150
+NA              13
+NA              13
+CL              13
+CL              13

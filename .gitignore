@@ -1,0 +1,14 @@
+__pycache__/
+output/
+*.pdb
+*.pkl.gzip
+*.pkl
+CGCompiler-checkpoint*
+# user/base/production/**/*.gro
+# user/base/production/**/*.ndx
+# user/base/production/**/*.top
+# user/base/production/**/*.itp
+user/data/ref_data
+.vscode/
+out*
+new.itp

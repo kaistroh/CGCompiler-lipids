@@ -1,0 +1,23 @@
+#include "martini_v3.0.0.itp"
+#include "martini_v3.0.0_phospholipids_v1.itp"
+#include "martini_v3.0.0_solvents_v2.itp" 
+#include "martini_v3.0.0_ions_v1.itp"
+#include "martini_v3.0_sterols_dev14_BETA.itp"
+;#include "martini_v3.0_sm.itp"
+#include "DPSM.itp"
+
+[ system ]
+; name
+INSANE! Membrane UpperLeaflet>POPC:CHOL:DPSM=1.0:1.0:1.0 LowerLeaflet>POPC:CHOL:DPSM=1.0:1.0:1.0
+
+[ molecules ]
+; name  number
+POPC            48
+CHOL            48
+DPSM            48
+POPC            48
+CHOL            48
+DPSM            48
+W             2124
+NA              23
+CL              23
