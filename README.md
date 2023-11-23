@@ -27,7 +27,7 @@ In its current form this repository provides an example on how to use CGCompiler
 8. analyze parametrization results with the provided jupyter notebook
 9. validate the new molecule
 
-If you want to add new observables, you will new to write a Python function, e.g., in `observables.py`, make changes to `compute_observables.py`, and specify weights and what scoring function to use on the observable in `usersettings.py`
+If you want to add new observables, you will need to write a Python function, e.g., in `observables.py`, make changes to `compute_observables.py`, and specify weights and what scoring function to use on the observable in `usersettings.py`
 
 
 
