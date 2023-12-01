@@ -32,15 +32,17 @@ If you want to add new observables, you will need to write a Python function, e.
 
 
 ## Citation
-If you use CGCompiler please cite the following article: Kai Steffen Stroh, Paulo C. T. Souza, Luca Monticelli and Herre Jelger Risselada; CGCompiler: Automated Coarse-Grained Molecule Parametrization via Noise-Resistant Mixed-Variable Optimization, J. Chem. Theory Comput. 2023; doi: https://doi.org/10.1021/acs.jctc.3c00637
+If you use CGCompiler please cite the following article: Kai Steffen Stroh, Paulo C. T. Souza, Luca Monticelli and Herre Jelger Risselada; CGCompiler: Automated Coarse-Grained Molecule Parametrization via Noise-Resistant Mixed-Variable Optimization, *J. Chem. Theory Comput.* 2023,19, 22, 8384–8400; doi: https://doi.org/10.1021/acs.jctc.3c00637
 
 
     @Article{CGCompiler2023,
-    author    = {Stroh, Kai Steffen and Souza, Paulo C. T. and Monticelli, Luca and Risselada, Herre Jelger},
-    journal   = {J. Chem. Theory Comput.},
-    title     = {CGCompiler: Automated Coarse-Grained Molecule Parametrization via Noise-Resistant Mixed-Variable Optimization},
-    year      = {2023},
-    issn      = {1549-9626},
-    doi       = {10.1021/acs.jctc.3c00637},
-    publisher = {American Chemical Society (ACS)},
+    author  = {Stroh, Kai Steffen and Souza, Paulo C. T. and Monticelli, Luca and Risselada, Herre Jelger},
+    journal = {J. Chem. Theory Comput.},
+    title   = {CGCompiler: Automated Coarse-Grained Molecule Parametrization via Noise-Resistant Mixed-Variable Optimization},
+    year    = {2023},
+    number  = {22},
+    pages   = {8384-8400},
+    volume  = {19},
+    doi     = {10.1021/acs.jctc.3c00637},
+    url     = {https://doi.org/10.1021/acs.jctc.3c00637},
     }
